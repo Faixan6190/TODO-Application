@@ -14,9 +14,11 @@
   </head>
   <body>
     <div>
-      <h1 class="bg-black text-center mt-5 w-75 mx-auto text-white">Notes</h1>
+      <h1 class="styling-heading text-center mt-5 w-50 mx-auto text-dark">
+        Notes
+      </h1>
     </div>
-    <div class="w-75 mx-auto mt-5">
+    <div class="w-50 mx-auto mt-5">
       <div class="mb-3">
         <label for="exampleInputEmail" class="form-label fw-bold fs-3"
           >Add Notes...</label
@@ -27,14 +29,14 @@
           placeholder="Enter Your Task"
           id="noteInput"
         />
-        <button class="btn btn-primary mt-2" onclick="addNote()">
+        <button class="btn btn-secondary mt-2" onclick="addNote()">
           Add Task
         </button>
-        <button class="btn btn-danger mt-2" onclick="deleteAll()">
+        <button class="btn btn-dark mt-2" onclick="deleteAll()">
           Delete All
         </button>
       </div>
-      <section class="mt-5" id="parent"></section>
+      <section class="mt-5 h-auto" id="parent"></section>
     </div>
   </body>
   <script
